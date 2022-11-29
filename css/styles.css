@@ -1,16 +1,11 @@
-/* #000000 - лого2
-#2196F3 - лого1 
-#212121 - другорядний колір
-#757575 - основний колір
-#FFFFFF - герой і лого2
-rgba(255, 255, 255, 0.6) - контакти
-#2F303A - фон героя*/
+
 :root {
     --primary-text-color: #757575;
     --secondary-text-color: #212121;
     --accent-color: #2196F3;
     --white-color: #FFFFFF;
 }
+
 body {
     background: var(--white-color);
     color: var(--primary-text-color);
@@ -20,6 +15,15 @@ body {
     font-size: 14px;
     line-height: 1.7;
 }
+.list {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* --------Навігація-------- */
 
  .logo-first {
     color: var(--accent-color);
@@ -31,12 +35,7 @@ body {
     font-size: 26px;
     line-height: 1.2;
  }
-ul {
-    list-style: none;
-}
-a {
-    text-decoration: none;
-}
+ 
 .site-nav .link {
     color: var(--secondary-text-color);
     font-weight: 500;
