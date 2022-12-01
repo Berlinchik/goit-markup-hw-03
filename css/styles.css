@@ -199,6 +199,10 @@ a {
     padding-top: 94px;
     padding-bottom: 94px;
 }
+.team-item {
+    padding-bottom: 30px;
+    background-color: #fff;
+}
 .team-item:not(:last-child) {
     margin-right: 30px;
 }
@@ -226,7 +230,6 @@ footer {
     background-color: #2F303A;
 }
 .address {
-    margin-bottom: 9px;
     color: var(--white-color);
 
 }
@@ -277,7 +280,6 @@ footer {
     margin-bottom: 0;
 }
 .project-title { 
-    margin-top: 20px;
     margin-bottom: 4px;
     font-weight: 700;
     font-size: 18px;
@@ -290,6 +292,15 @@ footer {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
+}
+.project-border {
+    padding: 20px 24px;
+    background-color: #fff;
+    border: 1px solid #EEEEEE;
+    border-top: 0;
+}
+.project-item img {
+    display: block;
 }
 .button {
     border: transparent;
